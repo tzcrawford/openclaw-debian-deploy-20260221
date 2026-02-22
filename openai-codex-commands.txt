@@ -1,0 +1,7 @@
+# install & set up codex: https://developers.openai.com/codex/quickstart?setup=cli
+
+cat /home/user/.codex/auth.json | grep access
+
+#openclaw onboard --auth-choice openai-codex # if necessary
+openclaw models auth paste-token --provider openai-codex
+
